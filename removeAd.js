@@ -1,10 +1,10 @@
 // ==UserScript==
-// @name         Remove Ad
+// @name         Remove Ad for qbxs123.com
 // @namespace    http://lipore.cn/
 // @version      0.1
 // @description  try to take over the world!
 // @author       Lipore
-// @match        https://github.com/lipore
+// @match        https://m.qbxs123.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=github.com
 // @grant        none
 // ==/UserScript==
@@ -26,9 +26,11 @@
       console.log("no " + selector + "found");
     }
   }
+  console.log("test");
   onready(() => {
     removeElementBySelector("#VYtNc")
     removeElementBySelector(".nr_page div")
+    removeElementBySelector(".readwz")
+    removeElementBySelector(".readon")
   });
-  // Your code here...
 })();
