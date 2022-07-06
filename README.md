@@ -1,0 +1,2 @@
+# userscript
+self used script
